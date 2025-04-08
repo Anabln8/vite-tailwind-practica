@@ -1,12 +1,25 @@
-// src/App.jsx
-function App() {
+import React from "react";
+import './styles/index.css';
+
+const MiComponente = () => {
   return (
     <div className="text-center p-4">
-      <h1 className="text-3xl font-bold text-blue-600">
-        ¡Hola desde React + Vite!
-      </h1>
+      {/* Botón Azul */}
+      <button className="mi-boton-azul">
+        ¡Haz clic aquí!
+      </button>
+      
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="bg-gray-300 p-4 rounded-lg">Elemento 1</div>
+        <div className="bg-gray-300 p-4 rounded-lg">Elemento 2</div>
+        <div className="bg-gray-300 p-4 rounded-lg">Elemento 3</div>
+        <div className="bg-gray-300 p-4 rounded-lg">Elemento 4</div>
+      </div>
     </div>
-  );
-}
 
-export default App;
+    
+  );
+};
+
+
+export default MiComponente;
