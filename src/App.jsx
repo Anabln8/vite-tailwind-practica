@@ -13,7 +13,7 @@ const MiComponente = () => {
         <div className="bg-gray-300 p-4 rounded-lg">Elemento 1</div>
         <div className="bg-gray-300 p-4 rounded-lg">Elemento 2</div>
         <div className="bg-gray-300 p-4 rounded-lg">Elemento 3</div>
-        
+        <div className="bg-gray-300 p-4 rounded-lg">Elemento </div>
       </div>
     </div>
 
