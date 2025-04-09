@@ -71,7 +71,7 @@ function App() {
             {/* Botón para ordenar productos */}
             <button
               onClick={cambiarOrden}
-              className="bg-[#282828] text-white py-2 px-4 rounded-lg my-6 mx-auto block cursor-pointer"
+              className="bg-[#af6b6b] text-white py-2 px-4 rounded-lg my-6 mx-auto block cursor-pointer"
             >
               Ordenar por precio (
               {sortOrder === 'asc' ? 'Ascendente' : 'Descendente'})
