@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+
+@layer components {
+    .mi-boton-azul {
+      @apply bg-blue-500 p-4 rounded-lg hover:bg-blue-600 text-white transition duration-300;
+    }
+  
+  }
+  
